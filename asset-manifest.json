@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bu1raj-portfolio-site/static/css/main.80dbcd78.css",
+    "main.js": "/bu1raj-portfolio-site/static/js/main.baee69db.js",
+    "static/js/453.a117a44b.chunk.js": "/bu1raj-portfolio-site/static/js/453.a117a44b.chunk.js",
+    "static/media/profile-photo.png": "/bu1raj-portfolio-site/static/media/profile-photo.7770e3308fd9b63d2e5d.png",
+    "static/media/flutter-staff-home-screen.jpeg": "/bu1raj-portfolio-site/static/media/flutter-staff-home-screen.f0389f409d5807123fa6.jpeg",
+    "static/media/slr-hello.jpeg": "/bu1raj-portfolio-site/static/media/slr-hello.7867db649a2cbf2d3baa.jpeg",
+    "static/media/B-logo.png": "/bu1raj-portfolio-site/static/media/B-logo.9d2e681d5c07ec8dd9e8.png",
+    "static/media/helvetica-neu.ttf": "/bu1raj-portfolio-site/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/bu1raj-portfolio-site/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/bu1raj-portfolio-site/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/bu1raj-portfolio-site/index.html",
+    "static/media/icons8-flutter-96.svg": "/bu1raj-portfolio-site/static/media/icons8-flutter-96.3bceafa2fc119b076d3a0adf6d2c737a.svg",
+    "main.80dbcd78.css.map": "/bu1raj-portfolio-site/static/css/main.80dbcd78.css.map",
+    "main.baee69db.js.map": "/bu1raj-portfolio-site/static/js/main.baee69db.js.map",
+    "453.a117a44b.chunk.js.map": "/bu1raj-portfolio-site/static/js/453.a117a44b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80dbcd78.css",
+    "static/js/main.baee69db.js"
+  ]
+}
