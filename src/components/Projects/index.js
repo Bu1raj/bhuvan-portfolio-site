@@ -12,8 +12,8 @@ function Projects() {
             <div className='cards-grid'>
                 <Card title = {project1.title} image={project1.image} description={project1.description}/>
                 <Card title = {project2.title} image={project2.image} description={project2.description}/>
-                <Card title = {project1.title} image={project1.image} description={project1.description}/>
-                <Card title = {project1.title} image={project1.image} description={project1.description}/>
+                {/* <Card title = {project1.title} image={project1.image} description={project1.description}/>
+                <Card title = {project1.title} image={project1.image} description={project1.description}/> */}
             </div>
             <Loader type='pacman'/>
         </>
