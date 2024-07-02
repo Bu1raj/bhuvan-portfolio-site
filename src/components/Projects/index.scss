@@ -1,0 +1,14 @@
+.cards-grid{
+    display: grid;
+    position: absolute;
+    // left: 7%;
+    // right: 3%;
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 2.5%;
+    padding-bottom: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    opacity: 0;
+    animation: fadeInUp 2s 0.7s forwards;
+}
