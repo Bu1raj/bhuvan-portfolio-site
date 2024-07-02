@@ -1,35 +1,27 @@
-import gsap from 'gsap-trial';
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin';
-import { useEffect, useRef } from 'react';
+// import { useEffect, useRef } from 'react';
 import LogoB from '../../../assets/images/B-logo.png';
 import './index.scss';
 
 
 function Logo() {
-    const bgRef = useRef();
-    const outlineLogoRef1 = useRef();
-    const outlineLogoRef2 = useRef();
-    const outlineLogoRef3 = useRef();
-    const solidLogoRef = useRef();
+    // const bgRef = useRef();
+    // const outlineLogoRef1 = useRef();
+    // const outlineLogoRef2 = useRef();
+    // const outlineLogoRef3 = useRef();
+    // const solidLogoRef = useRef();
     
-    useEffect(() => {
-        gsap.registerPlugin(DrawSVGPlugin);
+    // useEffect(() => {
+    //     //gsap.registerPlugin(DrawSVGPlugin);
 
-        gsap.timeline()
-        .to(bgRef.current, {duration: 1, opacity: 0.8,})
-        .fromTo(outlineLogoRef1.current, { drawSVG: '0%'},{ drawSVG: '60%', duration: 10,})
-
-        gsap.fromTo(outlineLogoRef2.current, { drawSVG: '0%'},{ drawSVG: '60%', duration: 13,})
-
-        gsap.fromTo(outlineLogoRef3.current, { drawSVG: '0%'},{ drawSVG: '60%', duration: 13,})
-
-        gsap.fromTo(solidLogoRef.current, {opacity: 0}, {duration: 4, opacity: 1, delay: 2})
+    //     gsap.timeline()
+    //     .to(bgRef.current, {duration: 1, opacity: 0.8,})
+    //     .fromTo(solidLogoRef.current, {opacity: 0}, {duration: 4, opacity: 1, delay: 2})
     
-    }, []);
+    // }, []);
 
     return (
-        <div className="logo-container" ref={bgRef}>
-            <img ref={solidLogoRef} className='solid-logo' src={LogoB} alt='S' />
+        <div className="logo-container" >
+            <img className='solid-logo' src={LogoB} alt='S' />
                 <svg 
                 version="1.0" 
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,13 +32,11 @@ function Logo() {
                 >
 
                 <g 
-                transform="translate(0.000000,500.000000) 
-                scale(0.100000,-0.100000)"
-                fill="none" 
-                stroke="none"
                 className='svg-container'
+                transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
+                fill="none"
                 >
-                <path ref={outlineLogoRef1} d="M777 2669 l3 -1961 37 -42 c20 -22 91 -101 157 -174 l120 -133 980 4
+                <path d="M777 2669 l3 -1961 37 -42 c20 -22 91 -101 157 -174 l120 -133 980 4
                 c556 3 1029 9 1091 15 90 8 141 20 280 67 94 31 193 69 220 84 28 16 68 38 90
                 51 22 12 57 32 79 43 42 24 229 233 262 293 11 22 42 78 68 127 46 84 49 93
                 59 205 14 152 14 230 0 379 -10 99 -17 131 -37 168 -54 95 -74 131 -93 166
@@ -73,7 +63,7 @@ function Logo() {
                 203 52 352 126 243 121 431 332 507 570 77 238 64 535 -30 732 -18 37 -18 37
                 1 27 10 -5 27 -22 36 -37z"/>
 
-                <path ref={outlineLogoRef2} d="M1320 4160 c-13 -8 -15 -87 -18 -593 -1 -378 1 -594 8 -611 l10 -27
+                <path d="M1320 4160 c-13 -8 -15 -87 -18 -593 -1 -378 1 -594 8 -611 l10 -27
                 702 4 c689 3 705 3 787 25 128 34 204 75 281 151 124 122 178 278 167 481 -10
                 176 -51 276 -156 381 -108 108 -260 170 -465 190 -125 12 -1297 11 -1316 -1z
                 m1430 -42 c239 -67 369 -165 435 -326 33 -82 32 -100 -2 -63 -25 27 -43 33
@@ -83,7 +73,7 @@ function Logo() {
                 -225 -60 -305 -45 -88 -144 -187 -228 -228 -36 -18 -101 -42 -145 -54 -77 -21
                 -101 -22 -607 -26 l-528 -3 0 416 0 415 623 -3 c398 -2 638 -7 667 -14z"/>
 
-                <path ref={outlineLogoRef3} d="M1305 2468 c-9 -51 -1 -1265 8 -1275 5 -4 322 -8 705 -8 681 0 699 1
+                <path d="M1305 2468 c-9 -51 -1 -1265 8 -1275 5 -4 322 -8 705 -8 681 0 699 1
                 803 23 208 43 327 114 421 250 74 108 108 232 108 401 0 366 -199 574 -605
                 630 -48 7 -329 11 -755 11 l-679 0 -6 -32z m1525 -22 c214 -50 356 -150 431
                 -301 18 -36 30 -68 27 -71 -7 -6 -91 16 -183 50 l-70 26 -677 0 c-416 0 -687

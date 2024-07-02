@@ -2,9 +2,9 @@ import emailjs from '@emailjs/browser';
 import { useEffect, useRef, useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo';
 
 import './index.scss';
+import Logo from './Logo';
 
 function Contact() {
     const [letterClass, setLetterClass] = useState('text-animate');

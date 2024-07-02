@@ -8,13 +8,15 @@
     bottom: 0;
     left: auto;
     margin: auto;
-    opacity: 0;
+    transform: rotateZ(-10deg) !important;
 
     svg{
         width: 100%;
         height: auto;
         bottom: 0;
-        transform: rotateZ(-10deg) !important;
+        //transform: rotateZ(-10deg) !important;
+        opacity: 0;
+        animation: fadeIn 2s 1.5s forwards, bounce 5s ease infinite;
     }
 
     .solid-logo{
@@ -25,13 +27,14 @@
         left: 0;
         margin: auto;
         width: 100%;
-        opacity: 0;
-        transform: rotateZ(-10deg) !important;
+        //transform: rotateZ(-10deg) !important;
         z-index: 1;
+        opacity: 0;
+        animation: fadeIn 2s 1.5s forwards, bounce 5s ease infinite;
     }
 
     .svg-container{
-        stroke : #C6E070;
-        stroke-width: 40;
+        stroke: #C6E070;
+        stroke-width: 40px;
     }
 }
