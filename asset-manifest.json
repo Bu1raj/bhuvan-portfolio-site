@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/bu1raj-portfolio-site/static/css/main.2dba94b8.css",
-    "main.js": "/bu1raj-portfolio-site/static/js/main.671c2d98.js",
+    "main.css": "/bu1raj-portfolio-site/static/css/main.c04deb4d.css",
+    "main.js": "/bu1raj-portfolio-site/static/js/main.8e39e439.js",
     "static/js/453.a117a44b.chunk.js": "/bu1raj-portfolio-site/static/js/453.a117a44b.chunk.js",
     "static/media/profile-photo.png": "/bu1raj-portfolio-site/static/media/profile-photo.7770e3308fd9b63d2e5d.png",
-    "static/media/flutter-staff-home-screen.jpeg": "/bu1raj-portfolio-site/static/media/flutter-staff-home-screen.f0389f409d5807123fa6.jpeg",
-    "static/media/slr-hello.jpeg": "/bu1raj-portfolio-site/static/media/slr-hello.7867db649a2cbf2d3baa.jpeg",
+    "static/media/flutter-arena-management.jpeg": "/bu1raj-portfolio-site/static/media/flutter-arena-management.a29993648322ddf04a9b.jpeg",
+    "static/media/flutter-home-screen.jpeg": "/bu1raj-portfolio-site/static/media/flutter-home-screen.01630a204a27fac3cdaf.jpeg",
+    "static/media/slr-hello.jpeg": "/bu1raj-portfolio-site/static/media/slr-hello.90aefcf23a9bd8028a3c.jpeg",
+    "static/media/slr-help.jpeg": "/bu1raj-portfolio-site/static/media/slr-help.d02500f7cc78c923f7b9.jpeg",
+    "static/media/flutter-inventory-management.jpeg": "/bu1raj-portfolio-site/static/media/flutter-inventory-management.e3a862099594788955e3.jpeg",
+    "static/media/slr-thankyou.jpeg": "/bu1raj-portfolio-site/static/media/slr-thankyou.220bd3c188599821b7ce.jpeg",
     "static/media/B-logo.png": "/bu1raj-portfolio-site/static/media/B-logo.9d2e681d5c07ec8dd9e8.png",
     "static/media/helvetica-neu.ttf": "/bu1raj-portfolio-site/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/bu1raj-portfolio-site/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/bu1raj-portfolio-site/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/python-svg.svg": "/bu1raj-portfolio-site/static/media/python-svg.c91b4010cb27c9f313f51ca0ad8fe9a0.svg",
     "index.html": "/bu1raj-portfolio-site/index.html",
     "static/media/icons8-flutter-96.svg": "/bu1raj-portfolio-site/static/media/icons8-flutter-96.3bceafa2fc119b076d3a0adf6d2c737a.svg",
-    "main.2dba94b8.css.map": "/bu1raj-portfolio-site/static/css/main.2dba94b8.css.map",
-    "main.671c2d98.js.map": "/bu1raj-portfolio-site/static/js/main.671c2d98.js.map",
+    "main.c04deb4d.css.map": "/bu1raj-portfolio-site/static/css/main.c04deb4d.css.map",
+    "main.8e39e439.js.map": "/bu1raj-portfolio-site/static/js/main.8e39e439.js.map",
     "453.a117a44b.chunk.js.map": "/bu1raj-portfolio-site/static/js/453.a117a44b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dba94b8.css",
-    "static/js/main.671c2d98.js"
+    "static/css/main.c04deb4d.css",
+    "static/js/main.8e39e439.js"
   ]
 }
