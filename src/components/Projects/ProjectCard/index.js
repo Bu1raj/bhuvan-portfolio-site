@@ -3,7 +3,7 @@ import './card.scss';
 
 function Card(props) {
     return (
-        <Link to={'/about'} style={{textDecoration: 'none'}}>
+        <Link to={props.route} style={{textDecoration: 'none'}}>
             <div className="card">
                 <img src={props.image} alt={props.title} />
                 <div className="card-content">

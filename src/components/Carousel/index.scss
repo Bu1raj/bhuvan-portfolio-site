@@ -1,0 +1,71 @@
+.carousel-main{
+    max-width: 900px;
+    max-height: 600px;
+    overflow: hidden;
+    border-radius: 1%;
+    box-shadow: 0 0 40px 10px #15003b;
+    position: relative;
+    object-fit: cover;
+    opacity: 0;
+    animation: fadeInLeft 1.5s 1.2s forwards;
+
+    .carousel-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: fadeIn 0.5s forwards;
+        }
+    }
+
+    .button-wrapper{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        top: 50%;
+        .icon{
+            background-color: rgba(0, 0, 0, 0);
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+            color: #909090;
+            border: none;
+            cursor: pointer;
+            font-size: 30px;
+            margin: 0 10px;
+            &:hover{
+                background-color: #3d00ae9a;
+                color: #fff;
+            }
+        }
+    }
+
+    .carousel-indicators{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .indicator{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #3d00ae9a;
+            margin: 0 5px;
+        }
+
+        .active{
+            background-color: #fff;
+            box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.6);
+        }
+
+    }
+
+}

@@ -1,0 +1,41 @@
+.wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 9%;
+    margin-right: 1%;
+
+    .description{
+        margin-left: 3%;
+        margin-right: 10%;
+        width: 65%;
+        height: auto;
+        h1{
+            font-size: 40px;
+            color: #C6E070;
+            letter-spacing: 2px;
+            margin: 0;
+            margin-bottom: 40px;
+            opacity: 0;
+            animation: fadeInDown 1.5s ease 1.2s;
+            animation-fill-mode: forwards;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            position: inherit;
+            li{
+                color: #fff;
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: left;
+                margin-bottom: 30px;
+                opacity: 0;
+                animation: fadeInUp 1.5s ease 1.2s;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
